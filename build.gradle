@@ -10,11 +10,12 @@ version = '1.0-SNAPSHOT'
 sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
 
+
 repositories {
     mavenCentral()
     maven {
-        name = 'spigotmc-repo'
-        url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+        name = 'papermc-repo'
+        url = 'https://papermc.io/repo/repository/maven-public/'
     }
     maven {
         name = 'sonatype'
@@ -23,7 +24,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT'
+    compileOnly 'com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT'
 }
 
 processResources {

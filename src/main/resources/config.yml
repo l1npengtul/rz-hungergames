@@ -1,5 +1,15 @@
+squad-types: 0 # 0 for solo, 1 for duo, 3 for trio
+min-start-teams: 12
+
+lobby-location: [0,0,0] #x,y,z
+map-center-location: [0,0,0] #x,y,z
+dead-store-location: [0,0,0] #x,y,z
+
+game-times: [600, 900, 1200, 1500, 1800] #different stages of the game, in seconds
+random-ending-circle: true
+
 sql-username: ""
 sql-passwd: ""
+sql-dbname: ""
 sql-hostname: ""
 sql-port: ""
-sql-dbname: ""
